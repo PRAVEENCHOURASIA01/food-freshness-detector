@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Model weights (large binary files)
+backend/weights/*.pt
+backend/weights/*.pth
+backend/weights/*.pkl
+!backend/weights/README.md
+
+# YOLO artifacts
+runs/
+ultralytics/
+
+# Node
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+coverage/
+htmlcov/
+.coverage
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
